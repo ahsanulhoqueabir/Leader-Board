@@ -1,4 +1,24 @@
 @media screen and (max-width: 688px){
+
+*{
+	margin: 0px;	
+}
+header{
+	border-radius: 20px;
+	margin-bottom: 3px;
+}
+.header{
+	flex-direction: column;
+	gap: 30px;
+	padding: 5px 20px;	
+}
+.logo{
+	justify-content: center;
+}
+.nav{
+	justify-content: space-around;
+}
+
 body{
 	margin: 0;
 }
@@ -33,9 +53,9 @@ body{
 	height: 170px;
 	width: 90%;
 }
-
-
+.course-info{
+	justify-content: space-between;
+	padding: 10px 10px;
 }
-.hide{
-	display: none;
+
 }
