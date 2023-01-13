@@ -62,6 +62,7 @@ header{
 body{
 	font-family: 'Poppins', sans-serif;
 	background:#dfe3ee;
+	background-image: url("../img/bg/bodybg.svg");
 	margin:0 0 30px 0;
 }
 main{
@@ -180,4 +181,47 @@ hr{
 	border-radius: 15px;
 	padding: 2px 8px;
 	color: #ff0065;
+}
+/* Footer starts from here */
+footer{
+	border-radius: 10px;
+}
+.footer{
+	display: flex;
+	padding: 30px 20px;
+	align-items: center;
+	justify-content: center;
+	background-image: url("../img/bg/fbg.svg");
+	margin-bottom: -29px;
+}
+.leftF{
+	font-size: 30px;
+}
+.Ficon{
+	display: flex;
+	gap: 25px;
+	padding: 20px 0 0 0;
+}
+.Ficon a{
+	text-decoration: none;
+}
+.fa-brands{
+	font-size: 26px;
+	color: black;
+}
+.rightF{
+	
+}
+.btn{
+	padding: 10px 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+}
+.submit{
+	margin-left: -5px;
+	background: #ff6f69;
+	color: white;
+	font-weight: 700;
+	
 }
