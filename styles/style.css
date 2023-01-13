@@ -49,6 +49,10 @@ header{
 	gap: 30px;
 	font-size: 1.4em;
 }
+.nav img{
+	height: 51px;
+	width:88px;
+}
 .nav a{
 	text-decoration: none;
 	color:white;
